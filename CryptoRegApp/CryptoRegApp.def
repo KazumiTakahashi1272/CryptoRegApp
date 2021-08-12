@@ -1,0 +1,8 @@
+; CryptoRegApp.def : DLL のモジュール パラメータを宣言します。
+
+LIBRARY      "CryptoReg"
+
+EXPORTS
+    ; 明示的なエクスポートはここへ記述できます
+	;_cryptoWriteRegistry@32		@1		; VS2008 不具合対応
+	
